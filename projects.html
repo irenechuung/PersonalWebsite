@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Irene Chung</title>
+<meta name="description" content="Projects by Irene Chung — EECS & IEOR at UC Berkeley.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Irene Chung</a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section page-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>SafeDose</h3>
+          <p>Full-stack medication management app supporting patient and caregiver roles with real-time sync. Integrated the Claude Haiku Vision API to identify medications from photos, auto-fill dosages, and verify prescriptions.</p>
+          <p class="project-stack">React Native · TypeScript · Firebase</p>
+          <div class="project-links">
+            <a href="https://github.com/irenechuung" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Satellite Flight Software</h3>
+          <p>Flight software for a NASA-funded satellite testing a quantum gyroscope, including a command execution framework supporting beacon transmission, payload initialization, burn wire activation, and ground communication.</p>
+          <p class="project-stack">C/C++ · Embedded Systems</p>
+          <div class="project-links">
+            <a href="https://github.com/irenechuung" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Safety Requirement Extraction Pipeline</h3>
+          <p>LLM extraction pipeline turning safety standards into structured, machine-checkable requirement registries, with a deterministic verification layer for grounding and completeness.</p>
+          <p class="project-stack">Python · Claude API · Gemini API</p>
+          <div class="project-links">
+            <a href="https://github.com/irenechuung" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Irene Chung. Built with GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
