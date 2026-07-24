@@ -188,6 +188,13 @@ h1, h2, h3, h4, .logo {
   margin-bottom: 0;
 }
 
+.subsection-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin: 32px 0 14px;
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -204,6 +211,19 @@ h1, h2, h3, h4, .logo {
   border-radius: 999px;
   font-size: 0.9rem;
   color: var(--color-text-muted);
+}
+
+.interests-text {
+  max-width: 680px;
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.interests-text .highlight {
+  color: var(--color-text);
+  font-weight: 600;
 }
 
 /* Experience */
